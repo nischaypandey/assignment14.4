@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    tools:context="com.example.user.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="OPEN CAMERA"
+        android:textSize="20dp"
+        android:textColor="#5B005B"/>
+</android.support.constraint.ConstraintLayout>
